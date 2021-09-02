@@ -11,7 +11,7 @@ function App() {
     
     function handleSubmit(event) {
         event.preventDefault()
-        setContactsData(prevContacts => [...prevContacts, inputData])
+        setContactsData(prevContacts => [...prevContacts, contactInputData])
     }
     return (
         <div>
